@@ -17,12 +17,14 @@ We fine-tuned and evaluated the following multilingual transformer models:
   Contains the datasets for each language in dedicated subfolders (e.g., `english/`, `italian/`, `multilingual/`, etc.).
 
 - `models/`  
-  Compressed folders with the fine-tuned versions of each transformer model:
+  Should contain folders with the fine-tuned versions of each transformer model:
   - DistilBERT
   - InfoXLM
   - mBERT
   - MiniLM
   - XLM-RoBERTa
+    
+  However, GitHub does not allow to upload these folders because they exceed the size limit.
 
 - `predictions/`  
   Contains subfolders for each model and for the ensemble methods. Each subfolder includes model predictions for all test settings.
