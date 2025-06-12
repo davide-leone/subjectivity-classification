@@ -2,7 +2,7 @@
 
 This repository contains the code, models, and predictions for our project on **subjectivity classification**, where we classify sentences from news articles as either **subjective (SUBJ)** or **objective (OBJ)**. The work is based on fine-tuning and evaluating several transformer-based models across multiple languages, and implementing ensemble strategies to improve classification performance.
 
-## 🧠 Models Used
+## Models Used
 
 We fine-tuned and evaluated the following multilingual transformer models:
 - [DistilBERT](https://huggingface.co/distilbert-base-multilingual-cased)
@@ -11,7 +11,7 @@ We fine-tuned and evaluated the following multilingual transformer models:
 - [MiniLM](https://huggingface.co/nreimers/mMiniLMv2-L12-H384-distilled-from-XLMR-Large)
 - [XLM-RoBERTa](https://huggingface.co/xlm-roberta-base)
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `data/`  
   Contains the datasets for each language in dedicated subfolders (e.g., `english/`, `italian/`, `multilingual/`, etc.).
