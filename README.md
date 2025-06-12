@@ -1,4 +1,3 @@
-# subjectivity-classification
 # Subjectivity Classification in News Articles
 
 This repository contains the code, models, and predictions for our project on **subjectivity classification**, where we classify sentences from news articles as either **subjective (SUBJ)** or **objective (OBJ)**. The work is based on fine-tuning and evaluating several transformer-based models across multiple languages, and implementing ensemble strategies to improve classification performance.
