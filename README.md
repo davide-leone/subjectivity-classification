@@ -14,8 +14,6 @@ We fine-tuned and evaluated the following multilingual transformer models:
 
 ## 📁 Repository Structure
 
-## 📁 Repository Structure
-
 - `data/`  
   Contains the datasets for each language in dedicated subfolders (e.g., `english/`, `italian/`, `multilingual/`, etc.).
 
